@@ -1,0 +1,12 @@
+.button {
+   @include box-shadow();
+   background: $button-color;
+   border: none;
+   color: $white;
+   font-size: $base-font-size;
+   margin-bottom: 1.4rem;
+   padding: 10rem;
+   text-transform: uppercase;
+   cursor: pointer;
+   font-weight: 300;
+}

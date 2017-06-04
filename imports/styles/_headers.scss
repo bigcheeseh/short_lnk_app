@@ -1,0 +1,49 @@
+.container {
+    margin: 0 auto;
+    max-width: $container-max-width;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    line-height: 2;
+}
+.header {
+   background-color: $light-purple;
+   color: $white;
+   font-weight: 200;
+}
+
+.header-title {
+   margin: 0;
+}
+
+.header-items {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: $container-max-width;
+    margin: 0 auto;
+}
+
+.header-anchor {
+  color: $white;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+.check-box {
+  margin: 10px 0;
+}
+
+
+.links-item {
+   background-color: lighten($lighGrey, 5);
+   border: 1px solid $lighGrey;
+   margin: 20px 0;
+   padding: 15px;
+}
+
+.links-item-secondary {
+  color: $darkGrey;
+  
+}
